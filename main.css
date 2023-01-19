@@ -1,0 +1,69 @@
+body{
+color: rgb(255, 255, 255);
+background-color: rgb(89, 255, 255);
+background-image: url("background.webp");
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#add_b{
+width: 80px;
+height: 80px;
+font-size: 50px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: rgb(150, 0, 0);
+border-radius: 20px; 
+}
+#mul_b{
+width: 80px;
+height: 80px;
+font-size: 50px;
+margin-right: 10px;
+margin-top: 10px;
+background-color: rgb(150, 150,0);
+border-radius: 20px;
+}
+
+#sub_b{
+width: 80px;
+height: 80px;
+font-size: 50px;
+margin-left: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: rgb(0, 0, 150);
+border-radius: 20px;
+}
+
+#div_b{
+width: 80px;
+height: 80px;
+font-size: 50px;
+margin-left: 10px;
+margin-top: 10px;
+background-color: rgb(0, 150, 0);
+border-radius: 20px;
+}
+
+#how:hover{
+color: aqua;
+}
+#add_b:hover{
+background-color: rgb(255, 0, 0);
+}
+#sub_b:hover{
+background-color: rgb(0, 0, 255);
+}
+#mul_b:hover{
+background-color: rgb(255, 255, 0);
+color: black;
+}
+#div_b:hover{
+background-color: rgb(0, 255, 0);
+color: black;
+}
+#sco{
+text-shadow: 5px 5px 5px black;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maths Test</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<style>
+body{
+color: rgb(255, 255, 255);
+background-color: rgb(89, 255, 255);
+background-image: url("background.webp");
+}
+
+#output{
+background-color: white;
+color: black;
+width: 250px;
+height: 250px;
+text-align: center;
+border-radius: 50px;
+}
+
+.wrong{
+color: red;
+text-shadow: 5px 5px 5px rgb(152,152,152);
+}
+
+#b{
+background-color: red;
+width: 100px;
+height: 50px;
+border-radius: 10px;
+}
+
+h1{
+font-family: monospace;
+text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#check{
+border-radius: 10px;
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+#score{
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#num{
+text-shadow: 6px 6px 6px rgb(90, 90, 90);
+}
+
+
+</style>
+
+<center>
+    <h3 id="player1_name">Score = <h2 id="score">0</h2></h2>
+<h1>Subtraction Test</h2>
+    <div id="but">
+        <button class="btn btn-success" onclick="send()"> Give Question </button>
+    </div>
+
+<div id="output">
+<h3 id="number"></h3>
+</div>
+<h4>If the answer is correct your score is automticly increased and Question will be changed.
+    <br>
+</h4>
+There Are some Subtractions have contain answer by negitive numbers.
+<br>
+<div id="but_d">
+    <button onclick="back()" id="b">Back</button>
+</div>
+
+</center>
+<script src="sub.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maths Test</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<style>
+body{
+color: rgb(255, 255, 255);
+background-color: rgb(89, 255, 255);
+background-image: url("background.webp");
+}
+
+#output{
+background-color: white;
+color: black;
+width: 250px;
+height: 250px;
+text-align: center;
+border-radius: 50px;
+}
+
+.wrong{
+color: red;
+text-shadow: 5px 5px 5px rgb(152,152,152);
+}
+
+#b{
+background-color: red;
+width: 100px;
+height: 50px;
+border-radius: 10px;
+}
+
+h1{
+font-family:'Franklin Gothic Medium';
+text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#check{
+border-radius: 10px;
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+#score{
+text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#num{
+text-shadow: 6px 6px 6px rgb(90, 90, 90);
+}
+
+#mcu{
+color: rgb(255, 255, 0);
+}
+
+
+</style>
+
+<center>
+    <h3 id="player1_name">Score = <h2 id="score">0</h2></h3>
+<h1>Division Test</h2>
+    <div id="but">
+        <button class="btn btn-success" onclick="send()"> Give Question </button>
+    </div>
+
+    
+<div id="output">
+<h3 id="number"></h3>
+</div>
+<h5>If the answer is correct your score is automticly increased and Question will be changed.
+</h5>
+<p>There Are some Division have contain answer by decimal numbers</p>
+<h4><b id="mcu">NOTE :</b> write only 2 digits after decimal in every answer, any number divided by 0 its answer is Infinity.</h4>
+
+<div id="but_d"><button onclick="back()" id="b">Back</button></div>
+
+</center>
+<script src="div.js"></script>
+</body>
+
+
+</html>

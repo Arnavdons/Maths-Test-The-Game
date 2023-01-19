@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Maths Test</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<style>
+h1{
+font-family: 'Yeon Sung', cursive;
+text-shadow: 5px 5px 5px black ;
+}    
+
+h5{
+color: rgb(159, 243, 2);
+font-size: 20px;
+}
+
+#update{
+color: rgb(255, 0, 0);
+background-color: white;
+width: 98%;
+border-radius: 20px;
+font-size: 20px;
+text-shadow: 10px 10px 10px rgb(255, 0, 0);
+height: 70px;
+padding: 10px;
+}
+
+</style>
+<h4 onclick="how_to_play()" id="how">How to play</h4>
+<center>
+<h1>Maths Test</h1>
+<hr>
+
+<div id="ad">
+<h4>Addition Score : <b>0</b>  latest Score</h4>
+</div>
+
+<hr>
+<div id="sub">
+<h4>Subtraction Score : <b>0</b>  latest Score</h4>
+</div>
+<hr>
+<div id="mul">
+<h4>Multiply Score : <b>0</b>  latest Score</h4>
+</div>
+<hr>
+<div id="div">
+<h4>Divide Score : <b>0</b>  latest Score</h4>
+</div>
+<hr>
+<h5><b>To Entering The Game Please Press Button</b></h5>
+<span id="s_a"><button id="add_b" onclick="add()">+</button></span><span id="s_s"><button id="sub_b" onclick="sub()">-</button></span>
+<br>
+<span id="s_m"><button id="mul_b" onclick="mul()">x</button></span><span id="s_d"><button id="div_b" onclick="div()">÷</button></span>
+<div id="at_least"><h4>You need to attempt each section to access your total score and world ranking</h4></div>
+<div id="total_score"></div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
